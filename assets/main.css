@@ -78,8 +78,8 @@
   --color-primary-200: #dcd4ff;
   --color-primary-300: #c3b1ff;
   --color-primary-400: #a585ff;
-  --color-primary-500: #864ffe;
-  --color-primary-600: #7c31f6;
+  --color-primary-500: #1a1a1c;
+  --color-primary-600: #1a1a1c;
   --color-secondary: #1a1a1c;
   --color-accent: #fcfcfc;
   --color-background-1: #fcfcfd;
@@ -10387,7 +10387,7 @@ body {
   }
 
   .pt-\[100px\] {
-    padding-top: 100px;
+    padding-top: 40px;
   }
 
   .pt-\[112px\] {
@@ -22887,7 +22887,7 @@ body {
     }
 
     .xl\:pt-\[200px\] {
-      padding-top: 200px;
+      padding-top: 80px;
     }
 
     .xl\:pt-\[228px\] {
