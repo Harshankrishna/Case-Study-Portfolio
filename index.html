@@ -1,0 +1,768 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta
+  name="description"
+  content="NextSaaS - Modern HTML template collection with 35+ home page variations for SaaS businesses, startups, and web applications. Features responsive design, authentication pages, pricing, blog, and more with Tailwind CSS and Vite."
+/>
+<meta name="keywords" content="HTML,Tailwind CSS, JavaScript" />
+<meta name="author" content="NextSaaS" />
+<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="favicon.svg" />
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com/" />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;display=swap"
+  rel="stylesheet"
+/>
+
+    <title>Creative Portfolio - NextSaaS</title>
+    
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body class="bg-background-2 dark:bg-background-5 overflow-x-hidden">
+    <!-- =========================
+Header v1
+===========================-->
+<header>
+  <div
+    class="header-one opacity-0 rounded-full lp:!max-w-[1290px] xl:max-w-[1140px] lg:max-w-[960px] md:max-w-[720px] sm:max-w-[540px] min-[500px]:max-w-[450px] min-[425px]:max-w-[375px] max-w-[320px] mx-auto w-full fixed left-1/2 -translate-x-1/2 z-50 top-5 flex items-center justify-between px-2.5 xl:py-0 py-2.5 bg-white/60 backdrop-blur-[25px] top-5 dark:border dark:border-stroke-7 dark:bg-background-7"
+    data-ns-animate
+    data-direction="up"
+    data-offset="100"
+  >
+    <div>
+      <a href="index.html">
+        <span class="sr-only">Home</span>
+        <figure class="lg:max-w-[198px] lg:block hidden">
+          <img src="images/shared/main-logo.svg" alt="NextSaaS" class="dark:invert" />
+        </figure>
+        <figure class="max-w-[44px] lg:hidden block">
+          <img src="images/shared/logo.svg" alt="NextSaaS" class="w-full dark:hidden block" />
+          <img
+            src="images/shared/logo-dark.svg"
+            alt="NextSaaS"
+            class="w-full dark:block hidden"
+          />
+        </figure>
+      </a>
+    </div>
+    <nav class="hidden xl:flex items-center">
+      <ul class="flex items-center">
+        <li class="relative nav-item cursor-pointer py-2.5" data-menu="home-mega-menu">
+          <a href="#" class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 dark:hover:border-stroke-7 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200 dark:text-accent/60 dark:hover:text-accent {=$nav-item-class}">
+            <span>Home</span>
+          </a>
+        <li class="relative nav-item cursor-pointer py-2.5" data-menu="pages-mega-menu">
+          <a href="works.html" class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 dark:hover:border-stroke-7 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200 dark:text-accent/60 dark:hover:text-accent {=$nav-item-class}">
+            <span>Portfolio</span>
+          </a>
+        </li>
+        <li class="relative nav-item cursor-pointer py-2.5" data-menu="about-menu">
+          <a href="about.html" class="flex items-center gap-1 px-4 py-2 border border-transparent hover:border-stroke-2 dark:hover:border-stroke-7 rounded-full text-tagline-1 font-normal text-secondary/60 hover:text-secondary transition-all duration-200 dark:text-accent/60 dark:hover:text-accent {=$nav-item-class}">
+            <span>About</span>
+          </a>
+      </ul>
+    </nav>
+
+    <div class="xl:flex hidden items-center justify-center">
+      <a href="#" class="btn btn-md btn-secondary hover:btn-white dark:btn-accent dark:hover:btn-white-dark">
+        <span>Download Resume</span>
+      </a>
+    </div>
+    <div class="xl:hidden block">
+      <button
+        class="nav-hamburger flex flex-col gap-[5px] size-12 bg-background-4 dark:bg-background-6 rounded-full items-center justify-center cursor-pointer"
+      >
+        <span class="sr-only">Menu</span>
+        <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+        <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+        <span class="block w-6 h-0.5 bg-stroke-9 dark:bg-stroke-1"></span>
+      </button>
+    </div>
+  </div>
+  <!-- =========================
+Mobile Menu
+===========================-->
+
+<aside
+  class="sidebar fixed top-0 right-0 w-full sm:w-1/2 translate-x-full transition-all duration-300 h-screen bg-white dark:bg-background-7 xl:hidden z-[999] scroll-bar"
+>
+  <div class="lg:p-9 sm:p-8 p-5 space-y-4">
+    <div class="flex items-center justify-between">
+      <a href="index-2.html">
+        <span class="sr-only">Home</span>
+        <figure class="max-w-[44px]">
+          <img src="images/shared/logo.svg" alt="NextSaaS" class="w-full dark:hidden block" />
+          <img
+            src="images/shared/logo-dark.svg"
+            alt="NextSaaS"
+            class="w-full dark:block hidden"
+          />
+        </figure>
+      </a>
+      <button
+        class="nav-hamburger-close flex flex-col gap-1.5 size-10 bg-background-4 dark:bg-background-9 rounded-full items-center justify-center cursor-pointer relative"
+      >
+        <span class="sr-only">Close Menu</span>
+        <span class="block w-4 h-0.5 bg-stroke-9/60 dark:bg-stroke-1 rotate-45 absolute"></span>
+        <span class="block w-4 h-0.5 bg-stroke-9/60 dark:bg-stroke-1 -rotate-45 absolute"></span>
+      </button>
+    </div>
+    <div class="h-[85vh] w-full overflow-y-auto overflow-x-hidden pb-10 scroll-bar">
+      <ul>
+        <!-- home menu  -->
+        <li class="relative space-y-0">
+  <button
+    class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer"
+  >
+    <span>Home</span>
+  </button>
+</li>
+
+    <!-- works menu  -->
+        <li class="relative space-y-0">
+  <button
+    class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer"
+  >
+    <span>Portfolio</span>
+  </button>
+</li>
+
+        <!-- about us menu  -->
+        <li class="relative space-y-0">
+  <button
+    class="sub-menu text-tagline-1 font-normal text-secondary/60 dark:text-accent/60 transition-all duration-200 py-3 border-b border-stroke-4 dark:border-stroke-6 w-full text-left flex items-center justify-between cursor-pointer"
+  >
+    <span>About us</span>
+  </button>
+</li>
+      </ul>
+    </div>
+  </div>
+</aside>
+
+</header>
+
+    <main>
+      <!-- =========================
+Hero section
+===========================-->
+<section class="lg:pb-[100px] pb-16 lg:pt-[234px] pt-[150px] relative overflow-hidden" id="hero">
+  <div
+    class="absolute -z-10 top-5 left-1/2 -translate-x-1/2 h-full max-w-[1290px] flex justify-between lg:gap-[239px] sm:gap-[200px] gap-[150px]"
+  >
+    <div
+      data-hero-line
+      class="lp:block hidden w-px h-0 bg-linear-[180deg,#DFE4EB_0%,#dfe4eb00_100%] dark:bg-linear-[180deg,#2A333E_0%,#2a333e00_100%]"
+    ></div>
+    <div
+      data-hero-line
+      class="lp:block hidden w-px h-0 bg-linear-[180deg,#DFE4EB_0%,#dfe4eb00_100%] dark:bg-linear-[180deg,#2A333E_0%,#2a333e00_100%]"
+    ></div>
+    <div
+      data-hero-line
+      class="lg:block hidden w-px h-0 bg-linear-[180deg,#DFE4EB_0%,#dfe4eb00_100%] dark:bg-linear-[180deg,#2A333E_0%,#2a333e00_100%]"
+    ></div>
+    <div
+      data-hero-line
+      class="w-px h-0 bg-linear-[180deg,#DFE4EB_0%,#dfe4eb00_100%] dark:bg-linear-[180deg,#2A333E_0%,#2a333e00_100%]"
+    ></div>
+    <div
+      data-hero-line
+      class="w-px h-0 bg-linear-[180deg,#DFE4EB_0%,#dfe4eb00_100%] dark:bg-linear-[180deg,#2A333E_0%,#2a333e00_100%]"
+    ></div>
+    <div
+      data-hero-line
+      class="w-px h-0 bg-linear-[180deg,#DFE4EB_0%,#dfe4eb00_100%] dark:bg-linear-[180deg,#2A333E_0%,#2a333e00_100%]"
+    ></div>
+  </div>
+  <div class="main-container mb-[100px]">
+    <div class="space-y-14 text-center">
+      <div class="space-y-4">
+        <h1 data-ns-animate data-delay="0.2" class="mx-auto max-w-[886px] w-full">
+          Design that tells stories, code that connects.
+        </h1>
+        <p data-ns-animate data-delay="0.3" class="mx-auto max-w-[700px] w-full">
+          Stay updated with the latest bitcoin price index, offering real-time data, historical
+          trends, and market insights to keep you informed about the cryptocurrency's value
+          fluctuations.
+        </p>
+      </div>
+      <ul class="flex flex-col md:flex-row items-center justify-center gap-4">
+        <li
+          data-ns-animate
+          data-delay="0.3"
+          data-direction="left"
+          data-offset="50"
+          class="w-full sm:w-auto"
+        >
+          <a
+            href="works.html"
+            class="btn dark:btn-accent btn-md md:btn-xl btn-secondary hover:btn-white dark:hover:btn-white-dark w-[90%] md:w-auto"
+          >
+            <span>View portfolio</span>
+          </a>
+        </li>
+        <li
+          data-ns-animate
+          data-delay="0.5"
+          data-direction="left"
+          data-offset="60"
+          class="w-full sm:w-auto"
+        >
+          <a
+            href="contact-us-page.html"
+            class="btn hover:btn-secondary btn-md md:btn-xl btn-white dark:btn-white-dark dark:hover:btn-accent w-[90%] md:w-auto"
+          >
+            <span>Hire Me</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- <div data-ns-animate data-delay="0.2" data-offset="90">
+    <div
+      class="flex gap-4 justify-center items-center overflow-y-auto overflow-x-hidden scroll-bar"
+    >
+      <figure class="rounded-[20px] overflow-hidden max-h-[380px] min-w-[257px] w-full ml-4">
+        <img
+          src="images/home-page-15/hero-slide-1.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-1"
+        />
+      </figure>
+      <figure class="rounded-[20px] overflow-hidden max-h-[380px] min-w-[257px] w-full">
+        <img
+          src="images/home-page-15/hero-slide-2.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-2"
+        />
+      </figure>
+      <figure class="rounded-[20px] overflow-hidden max-h-[380px] min-w-[257px] w-full">
+        <img
+          src="images/home-page-15/hero-slide-3.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-3"
+        />
+      </figure>
+      <figure
+        class="scroll-expand rounded-[20px] overflow-hidden max-h-[380px] min-w-[500px] w-full"
+      >
+        <img
+          src="images/home-page-15/hero-slide-4.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-4"
+        />
+      </figure>
+      <figure class="rounded-[20px] overflow-hidden max-h-[380px] min-w-[257px] w-full">
+        <img
+          src="images/home-page-15/hero-slide-5.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-5"
+        />
+      </figure>
+      <figure class="rounded-[20px] overflow-hidden max-h-[380px] min-w-[257px] w-full">
+        <img
+          src="images/home-page-15/hero-slide-6.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-6"
+        />
+      </figure>
+      <figure class="rounded-[20px] overflow-hidden max-h-[380px] min-w-[257px] w-full">
+        <img
+          src="images/home-page-15/hero-slide-7.jpg"
+          class="w-full h-full object-cover"
+          alt="hero-slide-7"
+        />
+      </figure>
+    </div>
+  </div> -->
+</section>
+
+
+      <!-- =========================
+Service section
+===========================-->
+<section class="xl:py-[100px] lg:py-[90px] md:py-20 py-16 bg-background-3 dark:bg-background-7">
+  <div class="main-container">
+    <div class="text-center space-y-3 mb-10 md:mb-[70px]">
+      <h2 data-ns-animate data-delay="0.2">What I can help you with</h2>
+      <p data-ns-animate data-delay="0.3" class="max-w-[776px] mx-auto">
+        Whether you need a new visual identity, a high-performing website, or a design system, I
+        offer creative services tailored to help your brand grow with clarity and confidence.
+      </p>
+    </div>
+    <div class="mb-[72px]">
+      <div class="grid grid-cols-12 sm:gap-8 gap-y-8">
+        <div data-ns-animate data-delay="0.4" class="col-span-12 lg:col-span-4 sm:col-span-6">
+          <div class="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
+            <div class="space-y-1">
+              <h3 class="text-heading-6 md:text-heading-5">Web design & front-end development</h3>
+              <p>Create yoyr free account in seconds</p>
+            </div>
+            <div>
+              <figure class="sm:max-w-[345px] max-w-full w-full rounded-2xl overflow-hidden">
+                <img
+                  src="images/home-page-15/services-1.png"
+                  alt="services"
+                  class="w-full h-full object-cover dark:hidden"
+                />
+                <img
+                  src="images/home-page-15/services-1-dark.png"
+                  alt="services"
+                  class="w-full h-full object-cover hidden dark:block"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div data-ns-animate data-delay="0.5" class="col-span-12 lg:col-span-4 sm:col-span-6">
+          <div class="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
+            <div class="space-y-1">
+              <h3 class="text-heading-6 md:text-heading-5">Ui/ux design for saas and products</h3>
+              <p>Create yoyr free account in seconds</p>
+            </div>
+            <div>
+              <figure class="sm:max-w-[345px] max-w-full w-full">
+                <img
+                  src="images/home-page-15/services-5.png"
+                  alt="services"
+                  class="w-full h-full object-cover dark:hidden"
+                />
+                <img
+                  src="images/home-page-15/services-5-dark.png"
+                  alt="services"
+                  class="w-full h-full object-cover hidden dark:block"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div data-ns-animate data-delay="0.6" class="col-span-12 lg:col-span-4 sm:col-span-6">
+          <div class="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
+            <div class="space-y-1">
+              <h3 class="text-heading-6 md:text-heading-5">Brand identity design</h3>
+              <p>Create yoyr free account in seconds</p>
+            </div>
+            <div>
+              <figure class="sm:max-w-[345px] max-w-full w-full">
+                <img
+                  src="images/home-page-15/services-2.png"
+                  alt="services"
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div data-ns-animate data-delay="0.7" class="col-span-12 lg:col-span-4 sm:col-span-6">
+          <div class="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
+            <div class="space-y-1">
+              <h3 class="text-heading-6 md:text-heading-5">
+                Framer, webflow & next.js development
+              </h3>
+              <p>Create yoyr free account in seconds</p>
+            </div>
+            <div>
+              <figure class="sm:max-w-[345px] max-w-full w-full overflow-hidden rounded-2xl">
+                <img
+                  src="images/home-page-15/services-3.png"
+                  alt="services"
+                  class="w-full h-full object-cover"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+        <div data-ns-animate data-delay="0.8" class="col-span-12 lg:col-span-8">
+          <div class="bg-white dark:bg-background-8 rounded-[20px] md:p-8 p-6 space-y-6">
+            <div class="space-y-1">
+              <h3 class="text-heading-6 md:text-heading-5">Art direction & creative consulting</h3>
+              <p>Create yoyr free account in seconds</p>
+            </div>
+            <div>
+              <figure class="max-w-[784px] overflow-hidden rounded-2xl w-full">
+                <img
+                  src="images/home-page-15/services-4.png"
+                  alt="services"
+                  class="w-full h-full object-cover dark:hidden"
+                />
+                <img
+                  src="images/home-page-15/services-4-dark.png"
+                  alt="services"
+                  class="w-full h-full object-cover hidden dark:block"
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- =========================
+Work section
+===========================-->
+<section class="xl:py-[100px] lg:py-[90px] md:py-20 py-16">
+  <div class="main-container">
+    <div class="text-center space-y-3 mb-10 md:mb-[70px]">
+      <h2 data-ns-animate data-delay="0.2">Selected work</h2>
+      <p data-ns-animate data-delay="0.3" class="max-w-[680px] mx-auto">
+       Designing seamless web and mobile experiences with detail, usability, and story. Explore how I turn ideas into engaging digital experiences.
+      </p>
+    </div>  
+    <div class="mb-14">
+      <div class="grid grid-cols-12 lg:gap-14 gap-y-12">
+        <div class="col-span-12 lg:col-span-6">
+          <figure data-ns-animate data-delay="0.3" class="space-y-6">
+            <div
+              class="relative w-full lg:max-h-[400px] md:max-h-[280px] xl:h-[576px] h-full rounded-[20px] overflow-hidden group"
+            >
+              <div
+                class="absolute inset-0 bg-black/40 z-10 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
+              ></div>
+
+              <img
+                src="latest-portfolio/ragai.jpg"
+                class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500 ease-in-out"
+                alt="portfolio"
+              />
+              <a
+                href="ragworks.html"
+                class="group-hover:opacity-100 opacity-0 transition-all duration-500 ease-in-out absolute top-[55%] group-hover:top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 btn btn-md btn-white dark:btn-accent hover:!btn-white dark:hover:!btn-white-dark group-hover:shadow-3 border-0 transform hover:scale-[102%] z-20"
+              >
+                <span>View case studies</span>
+              </a>
+            </div>
+            <div
+              class="flex sm:items-center sm:flex-row flex-col sm:gap-4 gap-2 sm:justify-between justify-start"
+            >
+              <h3 class="text-heading-6 sm:text-heading-5">Ragworks AI</h3>
+              <p class="max-w-[257px] sm:text-right text-left">
+                Interactive portfolio for a film production house
+              </p>
+            </div>
+          </figure>
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+          <figure data-ns-animate data-delay="0.4" class="space-y-6">
+            <div
+              class="relative w-full lg:max-h-[400px] md:max-h-[280px] xl:h-[576px] h-full rounded-[20px] overflow-hidden group"
+            >
+              <div
+                class="absolute inset-0 bg-black/40 z-10 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
+              ></div>
+              <img
+                src="latest-portfolio/payslate.jpg"
+                alt="portfolio"
+                class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500 ease-in-out"
+              />
+              <a
+                href="neonai.html"
+                class="group-hover:opacity-100 opacity-0 transition-all duration-500 ease-in-out absolute top-[55%] group-hover:top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 btn btn-md btn-white dark:btn-accent hover:!btn-white dark:hover:!btn-white-dark group-hover:shadow-3 border-0 transform hover:scale-[102%] z-20"
+              >
+                <span>View case studies</span>
+              </a>
+            </div>
+            <div
+              class="flex sm:items-center sm:flex-row flex-col sm:gap-4 gap-2 sm:justify-between justify-start"
+            >
+              <h3 class="text-heading-6 sm:text-heading-5">NEON AI</h3>
+              <p class="max-w-[257px] sm:text-right text-left">
+                Landing page + ui system for a fast-growing ai startup
+              </p>
+            </div>
+          </figure>
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+          <figure data-ns-animate data-delay="0.4" class="space-y-6">
+            <div
+              class="relative w-full lg:max-h-[400px] md:max-h-[280px] xl:h-[576px] h-full rounded-[20px] overflow-hidden group"
+            >
+              <div
+                class="absolute inset-0 bg-black/40 z-10 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
+              ></div>
+              <img
+                src="latest-portfolio/payslate.jpg"
+                alt="portfolio"
+                class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500 ease-in-out"
+              />
+              <a
+                href="payslate.html"
+                class="group-hover:opacity-100 opacity-0 transition-all duration-500 ease-in-out absolute top-[55%] group-hover:top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 btn btn-md btn-white dark:btn-accent hover:!btn-white dark:hover:!btn-white-dark group-hover:shadow-3 border-0 transform hover:scale-[102%] z-20"
+              >
+                <span>View case studies</span>
+              </a>
+            </div>
+            <div
+              class="flex sm:items-center sm:flex-row flex-col sm:gap-4 gap-2 sm:justify-between justify-start"
+            >
+              <h3 class="text-heading-6 sm:text-heading-5">Payslate</h3>
+              <p class="max-w-[257px] sm:text-right text-left">
+                Landing page + ui system for a fast-growing ai startup
+              </p>
+            </div>
+          </figure>
+        </div>
+        <div class="col-span-12 lg:col-span-6">
+          <figure data-ns-animate data-delay="0.4" class="space-y-6">
+            <div
+              class="relative w-full lg:max-h-[400px] md:max-h-[280px] xl:h-[576px] h-full rounded-[20px] overflow-hidden group"
+            >
+              <div
+                class="absolute inset-0 bg-black/40 z-10 opacity-0 transition-opacity duration-500 ease-in-out group-hover:opacity-100"
+              ></div>
+              <img
+                src="images/case-study/Mikloset/footer.jpg"
+                alt="portfolio"
+                class="w-full h-full object-cover group-hover:scale-105 transition-all duration-500 ease-in-out"
+              />
+              <a
+                href="mikloset.html"
+                class="group-hover:opacity-100 opacity-0 transition-all duration-500 ease-in-out absolute top-[55%] group-hover:top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 btn btn-md btn-white dark:btn-accent hover:!btn-white dark:hover:!btn-white-dark group-hover:shadow-3 border-0 transform hover:scale-[102%] z-20"
+              >
+                <span>View case studies</span>
+              </a>
+            </div>
+            <div
+              class="flex sm:items-center sm:flex-row flex-col sm:gap-4 gap-2 sm:justify-between justify-start"
+            >
+              <h3 class="text-heading-6 sm:text-heading-5">Mikloset AI</h3>
+              <p class="max-w-[257px] sm:text-right text-left">
+                Landing page + ui system for a fast-growing ai startup
+              </p>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div data-ns-animate data-delay="0.6" class="text-center">
+      <a
+        href="works.html"
+        class="btn btn-secondary btn-xl dark:btn-transparent hover:btn-white dark:hover:btn-accent w-[90%] md:w-auto"
+      >
+        <span>See all projects</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+      <!-- =========================
+Tutorials section
+===========================-->
+<section
+  class="pb-[100px] pt-[100px] xl:pt-[200px] dark:pt-[100px] bg-background-3 dark:bg-background-5"
+>
+  <div class="main-container">
+    <div class="text-center space-y-3 mb-[70px]">
+      <h2 data-ns-animate data-delay="0.1">Gallery</h2>
+      <p data-ns-animate data-delay="0.2" class="max-w-[620px] mx-auto">
+        Our innovative, dynamic, and talented team is the driving force behind our success. Each
+        member brings a unique blend of expertise
+      </p>
+    </div>
+    <div class="grid grid-cols-12 md:gap-8 gap-y-8">
+      <div data-ns-animate data-delay="0.3" class="col-span-12 md:col-span-6 lg:col-span-4">
+        <div class="relative rounded-[20px] overflow-hidden group h-full md:max-h-[408px]">
+           <a
+          href="foodposter.html"
+        >
+          <figure class="h-full w-full">
+            <img
+              src="images/logo-img-2.jpg"
+              alt="Intro to NextSaaS video tutorial thumbnail"
+              class="h-full w-full object-cover"
+            />
+          </figure>
+          <div
+            class="text-center absolute w-[95%] left-0 right-0 mx-auto p-6 rounded-xl bottom-2.5 bg-secondary/10 backdrop-blur-[10px] md:translate-y-full md:opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500"
+          >
+          <h3 class="text-heading-5 text-accent">Food Posters</h3>
+        </a>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.4" class="col-span-12 md:col-span-6 lg:col-span-4">
+        <div class="relative rounded-[20px] overflow-hidden group h-full md:max-h-[408px]">
+          <a
+          href="poster.html"
+        >
+          <figure>
+            <img
+              src="images/pos-img-1.jpg"
+              alt="Intro to React video tutorial thumbnail"
+            />
+          </figure>
+          <div
+            class="text-center absolute w-[95%] left-0 right-0 mx-auto p-6 rounded-xl bottom-2.5 bg-secondary/10 backdrop-blur-[10px] md:translate-y-full md:opacity-0 translate-y-0 opacity-100 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500"
+          >
+            <h3 class="text-heading-5 text-accent">Ecommerce Posters</h3></a>
+          </div>
+        </div>
+      </div>
+      <div data-ns-animate data-delay="0.5" class="col-span-12 md:col-span-6 lg:col-span-4">
+        <div class="relative rounded-[20px] overflow-hidden group h-full md:max-h-[408px]">
+          <a
+          href="logo.html"
+        >
+          <figure>
+            <img
+              src="images/logo-img-1.jpg"
+              alt="Intro to JavaScript video tutorial thumbnail"
+            />
+          </figure>
+          <div
+            class="text-center absolute w-[95%] left-0 right-0 mx-auto p-6 rounded-xl bottom-2.5 bg-secondary/10 backdrop-blur-[10px] md:translate-y-full md:opacity-0 translate-y-0 opacity-100 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500"
+          >
+            <h3 class="text-heading-5 text-accent">Logo Folio design</h3></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <!-- =========================
+CTA section
+===========================-->
+<section
+  class="xl:py-[100px] lg:py-[90px] md:py-20 py-16 bg-white dark:bg-black relative overflow-hidden z-10"
+>
+  <div class="main-container">
+    <div class="text-center space-y-5 mb-8">
+      <span data-ns-animate data-delay="0.2" class="badge badge-green">Get started</span>
+      <div class="space-y-3">
+        <h2 data-ns-animate data-delay="0.3">Let’s make something great</h2>
+        <p data-ns-animate data-delay="0.4" class="max-w-[568px] mx-auto">
+           Have a project in mind, or just want to say hello? I’m always open to discussing new
+          ideas, partnerships, or opportunities to collaborate.
+        </p>
+      </div>
+    </div>
+    <div class="space-y-8 mb-[38px] mx-6 sm:mx-0">
+      <form
+        data-ns-animate
+        data-delay="0.5"
+        class="flex sm:flex-row flex-col sm:items-center sm:justify-center gap-3"
+      >
+        <!-- <fieldset>
+          <input
+            type="email"
+            name="email"
+            id="userEmail"
+            placeholder="Enter your email"
+            required
+            class="px-[18px] h-12 outline-none py-3 shadow-1 placeholder:text-secondary/50 rounded-full border border-stroke-1 sm:min-w-[340px] sm:max-w-[340px] w-full bg-accent dark:bg-background-6 dark:border-stroke-7 dark:placeholder:text-accent/60 block focus:ring-[0.7px] focus-within:ring-primary-500 font-normal placeholder:font-normal"
+          />
+        </fieldset> -->
+        <button type="submit" class="btn btn-md btn-primary h-12">
+          <span>Hire Me</span>
+        </button>
+      </form>
+      <ul
+        data-ns-animate
+        data-delay="0.6"
+        class="flex sm:items-center sm:justify-center md:gap-[42px] sm:gap-6 gap-y-3 sm:flex-row flex-col"
+      >
+        <li class="flex items-center justify-center gap-2">
+          <span
+            class="size-5 bg-secondary rounded-full flex items-center justify-center dark:bg-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="7"
+              viewBox="0 0 10 7"
+              fill="none"
+              aria-hidden="true"
+              class="shrink-0"
+            >
+              <path
+                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                class="fill-white dark:fill-black"
+              />
+            </svg>
+          </span>
+          <p class="text-tagline-2">Freelance jobs</p>
+        </li>
+
+        <li class="flex items-center justify-center gap-2">
+          <span
+            class="size-5 bg-secondary rounded-full flex items-center justify-center dark:bg-white"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="10"
+              height="7"
+              viewBox="0 0 10 7"
+              fill="none"
+              aria-hidden="true"
+              class="shrink-0"
+            >
+              <path
+                d="M4.31661 6.75605L9.74905 1.42144C10.0836 1.0959 10.0836 0.569702 9.74905 0.244158C9.41446 -0.081386 8.87363 -0.081386 8.53904 0.244158L3.7116 4.99012L1.46096 2.78807C1.12636 2.46253 0.585538 2.46253 0.250945 2.78807C-0.0836483 3.11362 -0.0836483 3.63982 0.250945 3.96536L3.1066 6.75605C3.27347 6.91841 3.49253 7 3.7116 7C3.93067 7 4.14974 6.91841 4.31661 6.75605Z"
+                class="fill-white dark:fill-black"
+              />
+            </svg>
+          </span>
+          <p class="text-tagline-2">Based in Brooklyn, working globally</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- cta bg img  -->
+  <div>
+    <figure
+      class="lg:w-[584px] w-[200px] md:w-[300px] lg:h-[544px] h-[300px] absolute lg:-top-[60%] -top-[33%] md:-top-[35%] -left-[3%] lg:-left-[13%] xl:-left-[10%] xl:-top-[50%] -z-10 pointer-events-none select-none"
+      data-ns-animate
+      data-delay="0.6"
+      data-direction="up"
+      data-offset="100"
+    >
+      <img src="images/gradient/gradient-8.png" alt="gradient" class="size-full object-cover" />
+    </figure>
+    <figure
+      class="lg:w-[409px] w-[200px] lg:h-[435px] h-[200px] absolute lg:-bottom-[23%] -bottom-[10%] lg:-right-[7%] -right-[5%] -z-10 pointer-events-none select-none"
+      data-ns-animate
+      data-delay="0.6"
+      data-direction="right"
+      data-offset="100"
+    >
+      <img src="images/gradient/gradient-13.png" alt="gradient" class="size-full object-cover" />
+    </figure>
+  </div>
+</section>
+
+    </main>
+    <!-- =========================
+Footer v1
+===========================-->
+
+
+  <script src="vendor/swiper.min.js"></script>
+<script src="vendor/leaflet.min.js"></script>
+<script src="vendor/vanilla-infinite-marquee.min.js"></script>
+<script src="vendor/split-text.min.js"></script>
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/scroll-trigger.min.js"></script>
+<script src="vendor/draw-svg.min.js"></script>
+<script src="vendor/scroll-trigger.min.js"></script>
+<script src="vendor/motionpathplugin.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="vendor/springer.min.js"></script>
+<script src="vendor/number-counter.js"></script>
+<script src="vendor/stack-card.min.js"></script>
+
+
+  <script  src="assets/main.js"></script>
+  </body>
+
+<!-- Mirrored from next-sass-html.vercel.app/home-page-15.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Sep 2025 13:55:33 GMT -->
+</html>
